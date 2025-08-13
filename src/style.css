@@ -1,0 +1,99 @@
+:root {
+  --primary-color: #040615; /* Azul escuro - 60% */
+  --secondary-color: #EAEAEA; /* Cinza claro - 30% */
+  --accent-color: #3A86FF;   /* Azul vibrante - 10% */
+  --border-radius: 12px;
+  --navbar-bg: var(--primary-color);
+  --card-bg: var(--secondary-color);
+  --card-shadow: 0 2px 16px 0 #1b2a4111;
+  --text-title: var(--primary-color);
+  --text-base: #1B2A41;
+  --text-light: #fff;
+}
+
+body {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: 'Inter', 'Roboto', Arial, sans-serif;
+}
+
+.navbar {
+  background: var(--navbar-bg) !important;
+  color: var(--text-light);
+  box-shadow: 0 2px 8px 0 #1b2a4111;
+}
+
+a, .text-primary {
+  color: var(--accent-color) !important;
+}
+
+.p-button-primary, .p-button.p-button-primary {
+  background: var(--accent-color) !important;
+  border: none;
+  color: var(--text-light) !important;
+}
+.p-button-primary:hover, .p-button.p-button-primary:hover {
+  background: #265bb5 !important;
+}
+
+.section, .full-section {
+  background: var(--primary-color);
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.surface-card, .card {
+  background: rgba(27, 42, 65, 0.92) !important;
+  color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-title);
+  font-weight: 700;
+}
+
+.p-button, .social-btn {
+  color: var(--accent-color) !important;
+  background: transparent !important;
+  border: 2px solid var(--accent-color) !important;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+/* Garante que o texto interno do botão acompanhe a cor do botão (inclusive no hover) */
+.p-button .p-button-label {
+  color: inherit !important;
+}
+
+.p-button.p-button-primary, .botao-cv {
+  background: transparent !important;
+  color: var(--accent-color) !important;
+  border: 2px solid var(--accent-color) !important;
+}
+
+.p-button.p-button-primary:hover, .botao-cv:hover, .p-button:hover, .social-btn:hover {
+  background: var(--accent-color) !important;
+  color: var(--text-light) !important;
+  border: 2px solid var(--accent-color) !important;
+}
+
+.social-btn {
+  background: var(--accent-color);
+  color: var(--text-light) !important;
+}
+
+.social-btn:hover {
+  background: var(--primary-color);
+  color: var(--text-light) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
