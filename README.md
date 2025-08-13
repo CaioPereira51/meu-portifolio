@@ -64,6 +64,8 @@ O workflow `.github/workflows/deploy.yml` será executado automaticamente:
 - Faz build do projeto
 - Deploy automático para GitHub Pages
 
+**URL do site**: https://caiopereira51.github.io/meu-portifolio/
+
 ## 📁 Estrutura do Projeto
 
 ```
@@ -93,3 +95,5 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 Desenvolvido com ❤️ por Caio Pereira
+
+# Teste workflow
