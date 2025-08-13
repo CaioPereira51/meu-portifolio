@@ -25,7 +25,7 @@ Desenvolvedor FullStack apaixonado por tecnologia, com expertise em análise e d
 ## 🚀 Como executar
 
 ### Pré-requisitos
-- Node.js 18+
+- Node.js 20+
 - npm ou yarn
 
 ### Instalação
